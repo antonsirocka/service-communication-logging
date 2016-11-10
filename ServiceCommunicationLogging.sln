@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DE96DBF8-80EF-4CFB-B4E8-9CCA9E764EF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6BBC5370-5922-4A83-A3BB-3B67F1E85607}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ServiceCommunicationLogging", "src\ServiceCommunicationLogging\ServiceCommunicationLogging.xproj", "{BAE05BC0-E3E2-48E4-89A5-46F64EC00D71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleService", "SampleService\SampleService.csproj", "{EB727833-3463-40BA-897B-C6C4F01A0AB8}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SampleService.Proxies", "src\SampleService.Proxies\SampleService.Proxies.xproj", "{B8ABF311-55CA-47AD-9EFE-6F8F84EA5B91}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "LogsDataAccess", "src\LogsDataAccess\LogsDataAccess.xproj", "{24030619-FE02-4306-A8E0-EBE6CF1ABC54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAE05BC0-E3E2-48E4-89A5-46F64EC00D71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAE05BC0-E3E2-48E4-89A5-46F64EC00D71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAE05BC0-E3E2-48E4-89A5-46F64EC00D71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAE05BC0-E3E2-48E4-89A5-46F64EC00D71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB727833-3463-40BA-897B-C6C4F01A0AB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB727833-3463-40BA-897B-C6C4F01A0AB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB727833-3463-40BA-897B-C6C4F01A0AB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB727833-3463-40BA-897B-C6C4F01A0AB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8ABF311-55CA-47AD-9EFE-6F8F84EA5B91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8ABF311-55CA-47AD-9EFE-6F8F84EA5B91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8ABF311-55CA-47AD-9EFE-6F8F84EA5B91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8ABF311-55CA-47AD-9EFE-6F8F84EA5B91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24030619-FE02-4306-A8E0-EBE6CF1ABC54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24030619-FE02-4306-A8E0-EBE6CF1ABC54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24030619-FE02-4306-A8E0-EBE6CF1ABC54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24030619-FE02-4306-A8E0-EBE6CF1ABC54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BAE05BC0-E3E2-48E4-89A5-46F64EC00D71} = {DE96DBF8-80EF-4CFB-B4E8-9CCA9E764EF3}
+		{EB727833-3463-40BA-897B-C6C4F01A0AB8} = {DE96DBF8-80EF-4CFB-B4E8-9CCA9E764EF3}
+		{B8ABF311-55CA-47AD-9EFE-6F8F84EA5B91} = {DE96DBF8-80EF-4CFB-B4E8-9CCA9E764EF3}
+		{24030619-FE02-4306-A8E0-EBE6CF1ABC54} = {DE96DBF8-80EF-4CFB-B4E8-9CCA9E764EF3}
+	EndGlobalSection
+EndGlobal

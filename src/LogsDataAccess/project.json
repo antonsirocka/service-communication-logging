@@ -1,0 +1,20 @@
+﻿{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "WindowsAzure.Storage": "7.2.1"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "dependencies": {
+      },
+      "imports": [
+        "dnxcore50",
+        "portable-net451+win8"
+      ]
+    },
+    "net452": {
+    }
+  }
+}

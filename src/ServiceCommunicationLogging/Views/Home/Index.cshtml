@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    <div class="col-md-10">
+        <h2>Send a request to Web.API only</h2>
+        <form>
+            <select name="requestType">
+                <option>GET</option>
+                <option>POST</option>
+            </select>
+            <input type="text" name="requestUrl" placeholder="Request URL" />
+            <input type="text" name="requestBody" placeholder="Request body" />
+            <input type="submit" class="btn btn-success" />
+        </form>
+    </div>
+</div>
+<div class="row" style="margin-top: 150px;">
+    <div class="col-md-10">
+        <form>
+            <h2>Send a request to Web.API, which then calls WCF service</h2>
+            <select name="requestType">
+                <option>GET</option>
+                <option>POST</option>
+            </select>
+            <input type="text" name="requestUrl" placeholder="Request URL" />
+            <input type="text" name="requestBody" placeholder="Request body" />
+            <input type="submit" class="btn btn-success" />
+        </form>
+    </div>
+</div>
